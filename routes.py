@@ -6,6 +6,6 @@ from flask import render_template
 def homepage():
     return render_template("homepage.html")
 
-@app.route("/blog")
+@app.route("/cadastro")
 def blog():
-    return "meu blog"
+    return render_template("cadastro.html")
