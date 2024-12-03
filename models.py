@@ -1,5 +1,7 @@
 import mysql.connector
 
+
+
 conexao = mysql.connector.connect(
     host ='localhost',
     user='root',
@@ -8,6 +10,8 @@ conexao = mysql.connector.connect(
 )
 
 cursor = conexao.cursor()
+
+
 
 cursor.close()
 conexao.close()

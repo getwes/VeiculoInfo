@@ -9,3 +9,7 @@ def homepage():
 @app.route("/cadastro")
 def blog():
     return render_template("cadastro.html")
+
+@app.route("/acessoCliente")
+def acessoCliente():
+    return 
